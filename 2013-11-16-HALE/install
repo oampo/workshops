@@ -1,0 +1,5 @@
+#! /bin/bash
+cd ../
+git submodule init
+git submodule update
+sudo apt-get install -y g++-4.7 librtaudio-dev geany
