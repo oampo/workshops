@@ -1,0 +1,15 @@
+[submodule "2013-11-16-HALE/libraries/thelonious"]
+	path = 2013-11-16-HALE/libraries/thelonious
+	url = git@github.com:spectaclelabs/thelonious.git
+[submodule "2013-11-16-HALE/libraries/miles"]
+	path = 2013-11-16-HALE/libraries/miles
+	url = git@github.com:spectaclelabs/miles.git
+[submodule "2013-11-16-HALE/libraries/elvin"]
+	path = 2013-11-16-HALE/libraries/elvin
+	url = git@github.com:spectaclelabs/elvin.git
+[submodule "2013-11-16-HALE/libraries/arduino"]
+	path = 2013-11-16-HALE/libraries/arduino
+	url = git@github.com:oampo/arduinocpp.git
+[submodule "2013-11-16-HALE/libraries/FirmataC"]
+	path = 2013-11-16-HALE/libraries/FirmataC
+	url = git@github.com:jdourlens/FirmataC.git
