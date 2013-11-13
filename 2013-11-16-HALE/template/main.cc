@@ -6,7 +6,7 @@ void setup();
 void loop();
 void audio();
 
-thelonious::AudioDevice device(AUDIO_DEVICE, AUDIO_DEVICE);
+thelonious::AudioDeviceN<0, 1> device(AUDIO_DEVICE, AUDIO_DEVICE);
 
 int main() {
     setup();

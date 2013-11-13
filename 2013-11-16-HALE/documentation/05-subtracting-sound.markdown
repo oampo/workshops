@@ -13,7 +13,7 @@ Let's try out filtering a square wave (the most complex of our simple waveforms)
 First we create our square wave and a low-pass filter:
 
 ```cpp
-auto osc = Square();
+auto osc = Pulse();
 auto filter = LowPassFilter();
 ```
 
@@ -21,7 +21,7 @@ Then we set the frequency of the wave, and a point where we should start filteri
 
 ```cpp
 220.0 >> osc.frequency;
-440.0 >> filter.frequency;
+880.0 >> filter.frequency;
 ```
 
 Finally we set the amplitude of the wave and pass it through the filter to the output.
@@ -48,7 +48,7 @@ void loop() {
 
 void audio() {
     // Create audio and send it to the device
-    osc1 * 0.2 >> filter >> device;
+    osc * 0.2 >> filter >> device;
 }
 ```
 

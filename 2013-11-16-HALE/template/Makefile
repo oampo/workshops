@@ -3,15 +3,15 @@ EXE = app
 SRC = $(wildcard *.cc)
 OBJ = $(patsubst %.cc, build/%.o, $(SRC))
 DEPS = $(patsubst %.cc, build/%.d, $(SRC))
-LIBRARIES = ../../libraries
+LIBRARIES = ../libraries
 
 # Settings
 DEVICE ?= -1
 DEBUG ?= FALSE
 
 # Programs
-CXX = g++
-LD = g++
+CXX = g++-4.7
+LD = g++-4.7
 
 # Include directories
 INC = -I $(LIBRARIES)/thelonious -I $(LIBRARIES)/jellyroll -I $(LIBRARIES)/elvin -I $(LIBRARIES)/miles

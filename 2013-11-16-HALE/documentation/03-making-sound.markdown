@@ -57,4 +57,4 @@ Try changing the frequency of the generator.  What is the highest and lowest fre
 
 Try changing the amplitude of the generator to find a level which is comfortable to listen to.
 
-As well as a sine wave you can generate more complex waves.  Try changing the from `Sine` to `Triangle`, `Saw` or `Square`.  What do you notice about the different sounds?
+As well as a sine wave you can generate more complex waves.  Try changing the from `Sine` to `Triangle`, `Saw` or `Pulse`.  What do you notice about the different sounds?

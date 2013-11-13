@@ -1,3 +1,3 @@
 #include "thelonious.h"
 
-extern thelonious::AudioDevice device;
+extern thelonious::AudioDeviceN<0, 1> device;

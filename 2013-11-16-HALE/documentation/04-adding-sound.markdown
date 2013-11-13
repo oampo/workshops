@@ -40,9 +40,9 @@ auto osc3 = Sine();
 void setup() {
     // Perform any setup tasks
     auto freq = 220.0;
-    freq >> osc1;
-    freq * 4.0 / 3.0 >> osc2;
-    freq * 2.0 >> osc3;
+    freq >> osc1.frequency;
+    freq * 4.0 / 3.0 >> osc2.frequency;
+    freq * 2.0 >> osc3.frequency;
 }
 
 void loop() {
@@ -51,7 +51,7 @@ void loop() {
 
 void audio() {
     // Create audio and send it to the device
-    (osc1 * 0.1 + osc2 * 0.05 + osc3 * 0.05) >> device;
+    osc1 * 0.1 + osc2 * 0.05 + osc3 * 0.05 >> device;
 }
 ```
 
