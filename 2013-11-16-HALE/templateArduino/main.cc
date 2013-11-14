@@ -6,7 +6,7 @@ void setup();
 void loop();
 void audio();
 
-Arduino arduino;
+Arduino arduino("/dev/ttyUSB0");
 thelonious::AudioDeviceN<0, 1> device(AUDIO_DEVICE, AUDIO_DEVICE);
 
 int main() {
